@@ -1437,6 +1437,13 @@ section,
   text-align: center;
   font-size: large;
 }
+.sale-price {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
 
 .team .member h4 {
   font-weight: 700;
